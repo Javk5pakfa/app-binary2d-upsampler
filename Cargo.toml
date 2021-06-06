@@ -8,5 +8,6 @@ edition = "2018"
 
 [dependencies]
 anyhow = "1.0.40"
-clap = "2.33.3"
 binary2d = { git = "https://github.com/clemson-cal/app-binary2d", rev = "f2e84c0" }
+clap = "2.33.3"
+glob = "0.3.0"
