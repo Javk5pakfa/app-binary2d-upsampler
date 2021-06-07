@@ -41,11 +41,11 @@ fn main() -> Result<()> {
     let new_bs = old_bs * 2;
 
     // Print useful info.
-    println!("Checkpoint file provided is {}", f);
-    println!("Output file will be named {}", out_f);
-    println!("Number of blocks is {}", nb);
-    println!("Old block size is {}", old_bs);
-    println!("New block size will be {}", new_bs);
+    println!("Checkpoint file provided is ...{}", f);
+    println!("Output file will be named .....{}", out_f);
+    println!("Number of blocks is ...........{}", nb);
+    println!("Old block size is .............{}", old_bs);
+    println!("New block size will be ........{}", new_bs);
 
     // Update the new file.
     new_file.config.mesh.block_size = new_bs;
